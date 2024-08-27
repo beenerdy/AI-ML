@@ -4,12 +4,12 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ## Table of Contents
 
-1. [Facial Recognition Project](#facial-recognition-project)
-2. [Stock Market Analysis](#stock-market-analysis)
-3. [California Housing Price Prediction](#california-housing-price-prediction)
-4. [Mercedes-Benz Greener Manufacturing](#mercedes-benz-greener-manufacturing)
-5. [Loan Default Prediction](#loan-default-prediction)
-6. [Image Classifier - Flower Species Recognition](#image-classifier---flower-species-recognition)
+1. [Facial Recognition Project](#1-facial-recognition-project)
+2. [Stock Market Analysis](#2-stock-market-analysis)
+3. [California Housing Price Prediction](#3-california-housing-price-prediction)
+4. [Mercedes-Benz Greener Manufacturing](#4-mercedes-benz-greener-manufacturing)
+5. [Loan Default Prediction](#5-loan-default-prediction)
+6. [Image Classifier - Flower Species Recognition](#6-image-classifier---flower-species-recognition)
 
 ## Projects Overview
 
