@@ -40,3 +40,6 @@ Thumbs.db
 venv/
 env/
 .venv/
+
+# large or binary files
+*.pth
