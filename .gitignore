@@ -35,3 +35,8 @@ venv.bak/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Virtual environment directories
+venv/
+env/
+.venv/
