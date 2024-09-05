@@ -1,19 +1,33 @@
 # AI & Machine Learning Projects Portfolio
 
-Welcome to my AI & Machine Learning Projects Portfolio! This repository contains a collection of projects that I have completed as part of various AI and Machine Learning courses. Each project demonstrates different concepts, techniques, and skills I have learned and applied in the fields of data science, machine learning, and deep learning. Below is a summary of the projects included in this repository, along with the key skills and techniques showcased in each.
+Welcome to my AI & Machine Learning Projects Portfolio! This repository contains a collection of projects that I have completed as part of various AI and Machine Learning courses and personal projects. Each project demonstrates different concepts, techniques, and skills I have learned and applied in the fields of data science, machine learning, and deep learning. Below is a summary of the projects included in this repository, along with the key skills and techniques showcased in each.
 
 ## Table of Contents
 
-1. [Facial Recognition Project](#1-facial-recognition-project)
-2. [Stock Market Analysis](#2-stock-market-analysis)
-3. [California Housing Price Prediction](#3-california-housing-price-prediction)
-4. [Mercedes-Benz Greener Manufacturing](#4-mercedes-benz-greener-manufacturing)
-5. [Loan Default Prediction](#5-loan-default-prediction)
-6. [Image Classifier - Flower Species Recognition](#6-image-classifier---flower-species-recognition)
+1. [Music Categorization and Playlist Creation](#1-music-categorization-and-playlist-creation)
+2. [Facial Recognition Project](#2-facial-recognition-project)
+3. [Stock Market Analysis](#3-stock-market-analysis)
+4. [California Housing Price Prediction](#4-california-housing-price-prediction)
+5. [Mercedes-Benz Greener Manufacturing](#5-mercedes-benz-greener-manufacturing)
+6. [Loan Default Prediction](#6-loan-default-prediction)
+7. [Image Classifier - Flower Species Recognition](#7-image-classifier---flower-species-recognition)
 
 ## Projects Overview
 
-### 1. Facial Recognition Project
+### 1. Music Categorization and Playlist Creation
+
+- **Objective**: Classify music tracks into "liked" or "disliked" categories using audio feature extraction and machine learning, generating playlists compatible with Apple Music.
+- **Techniques**:
+  - Audio Feature Extraction (MFCCs, Chroma, Spectral Contrast)
+  - Deep Learning (Conv1D, LSTM, Attention Mechanism)
+  - Data Preprocessing, Balancing, Outlier Removal
+- **Key Skills**: Deep Learning, Audio Signal Processing, Playlist Generation, TensorFlow
+
+[Read more about this project](Music-Sorting-with-ML/Readme.md)
+
+---
+
+### 2. Facial Recognition Project
 
 - **Objective**: Develop a deep learning model to perform facial recognition tasks.
 - **Techniques**:
@@ -26,7 +40,7 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ---
 
-### 2. Stock Market Analysis
+### 3. Stock Market Analysis
 
 - **Objective**: Analyze and visualize stock market data, calculate returns, and implement technical indicators to gain insights into market trends.
 - **Techniques**:
@@ -39,7 +53,7 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ---
 
-### 3. California Housing Price Prediction
+### 4. California Housing Price Prediction
 
 - **Objective**: Predict the median house values in California using linear regression.
 - **Techniques**:
@@ -52,7 +66,7 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ---
 
-### 4. Mercedes-Benz Greener Manufacturing
+### 5. Mercedes-Benz Greener Manufacturing
 
 - **Objective**: Optimize the time cars spend on the test bench during manufacturing to reduce carbon emissions without compromising safety.
 - **Techniques**:
@@ -65,7 +79,7 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ---
 
-### 5. Loan Default Prediction
+### 6. Loan Default Prediction
 
 - **Objective**: Predict whether a loan will default using historical data and machine learning models.
 - **Techniques**:
@@ -78,7 +92,7 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ---
 
-### 6. Image Classifier - Flower Species Recognition
+### 7. Image Classifier - Flower Species Recognition
 
 - **Objective**: Develop a deep learning model to classify images of flowers into different species.
 - **Techniques**:
@@ -96,10 +110,11 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 Throughout these projects, I have gained expertise in various areas of AI and Machine Learning, including:
 
 - **Deep Learning**: CNNs, Transfer Learning, Model Training and Evaluation
-- **Data Preprocessing**: Handling missing data, data normalization, and feature engineering
+- **Data Preprocessing**: Handling missing data, data normalization, feature engineering, and balancing datasets
 - **Exploratory Data Analysis (EDA)**: Data visualization, trend analysis, and correlation studies
 - **Machine Learning**: Regression, Classification, XGBoost, and Neural Networks
 - **Project Development**: End-to-end project implementation, from data acquisition to model deployment
+- **Audio Signal Processing**: Feature extraction (MFCCs, chroma, spectral contrast) and playlist generation for music recommendation systems
 
 ## How to Use This Repository
 
