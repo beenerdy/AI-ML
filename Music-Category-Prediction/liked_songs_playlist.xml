@@ -1,0 +1,794 @@
+<?xml version="1.0" ?>
+<plist version="1.0">
+    <dict>
+        <key>Major Version</key>
+        <integer>1</integer>
+        <key>Minor Version</key>
+        <integer>1</integer>
+        <key>Application Version</key>
+        <string>1.3.4.56</string>
+        <key>Features</key>
+        <integer>5</integer>
+        <key>Show Content Ratings</key>
+        <true/>
+        <key>Tracks</key>
+        <dict>
+            <key>16029</key>
+            <dict>
+                <key>Name</key>
+                <string>Purple Rain (feat. Steve Clisby) [Mousse T's Edit]</string>
+                <key>Artist</key>
+                <string>Chew Fu</string>
+                <key>Album</key>
+                <string>Purple Rain (feat. Steve Clisby) - EP</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>9680891</integer>
+                <key>Total Time</key>
+                <integer>402024</integer>
+                <key>BPM</key>
+                <integer>121</integer>
+                <key>Bit Rate</key>
+                <integer>192</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Skip Count</key>
+                <integer>1</integer>
+                <key>Normalization</key>
+                <integer>1340</integer>
+                <key>Persistent ID</key>
+                <string>8AAA5682EF5D2794</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Purple%20Rain%20(feat.%20Steve%20Clisby)%20%5BMousse%20T's%20Edit%5D-Chew%20Fu.mp3</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>9403</key>
+            <dict>
+                <key>Name</key>
+                <string>Mayale (SAAND Remix)</string>
+                <key>Artist</key>
+                <string>Dandara, Dm (Mx)</string>
+                <key>Album</key>
+                <string>The Best R M X S</string>
+                <key>Work</key>
+                <string>Lump Records</string>
+                <key>Genre</key>
+                <string>Electronica / Downtempo</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>18399729</integer>
+                <key>Total Time</key>
+                <integer>454791</integer>
+                <key>Track Number</key>
+                <integer>2</integer>
+                <key>Year</key>
+                <integer>2020</integer>
+                <key>BPM</key>
+                <integer>95</integer>
+                <key>Bit Rate</key>
+                <integer>320</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Electronica / Downtempo </string>
+                <key>Normalization</key>
+                <integer>2730</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Sort Album</key>
+                <string>Best R M X S</string>
+                <key>Persistent ID</key>
+                <string>0D65C8932E85BFB9</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Mayale%20(SAAND%20Remix)-Dandara,%20Dm%20(Mx).mp3</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>13891</key>
+            <dict>
+                <key>Name</key>
+                <string>Feel Like I Do</string>
+                <key>Artist</key>
+                <string>Disclosure</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>4691069</integer>
+                <key>Total Time</key>
+                <integer>195213</integer>
+                <key>Bit Rate</key>
+                <integer>192</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Normalization</key>
+                <integer>1768</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>D04E639510618E4D</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Feel%20Like%20I%20Do-Disclosure.mp3</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>8099</key>
+            <dict>
+                <key>Name</key>
+                <string>Wabi Sabi (Original Mix) [ClapCrate.me]</string>
+                <key>Artist</key>
+                <string>J.A.K.A.M.</string>
+                <key>Album Artist</key>
+                <string>ClapCrate.me</string>
+                <key>Composer</key>
+                <string>ClapCrate.me</string>
+                <key>Album</key>
+                <string>ClapCrate.me</string>
+                <key>Work</key>
+                <string>ClapCrate.me</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>16175656</integer>
+                <key>Total Time</key>
+                <integer>403200</integer>
+                <key>Year</key>
+                <integer>2017</integer>
+                <key>Bit Rate</key>
+                <integer>320</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Normalization</key>
+                <integer>2106</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>99823BEA26EEFDE8</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Wabi%20Sabi%20(Original%20Mix)%20%5BClapCrate.me%5D-J.A.K.A.M..mp3</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>14598</key>
+            <dict>
+                <key>Name</key>
+                <string>Rainy Morning (Original Mix)</string>
+                <key>Artist</key>
+                <string>Mass Digital</string>
+                <key>Album</key>
+                <string>Winter Wonderland</string>
+                <key>Genre</key>
+                <string>Organic House / Downtempo</string>
+                <key>Kind</key>
+                <string>AIFF audio file</string>
+                <key>Size</key>
+                <integer>82137482</integer>
+                <key>Total Time</key>
+                <integer>465513</integer>
+                <key>Year</key>
+                <integer>2021</integer>
+                <key>BPM</key>
+                <integer>120</integer>
+                <key>Bit Rate</key>
+                <integer>1411</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Organic House / Downtempo</string>
+                <key>Normalization</key>
+                <integer>1574</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>5168C3C200B33A66</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Rainy%20Morning%20(Original%20Mix)-Mass%20Digital.aiff</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>17550</key>
+            <dict>
+                <key>Name</key>
+                <string>Sensation Seekers (Martin Roth Nustyle Remix)</string>
+                <key>Artist</key>
+                <string>Mind X</string>
+                <key>Album</key>
+                <string>Sensation Seekers</string>
+                <key>Genre</key>
+                <string>Trance</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>11758251</integer>
+                <key>Total Time</key>
+                <integer>489874</integer>
+                <key>Bit Rate</key>
+                <integer>192</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Trance</string>
+                <key>Normalization</key>
+                <integer>2794</integer>
+                <key>Persistent ID</key>
+                <string>C89B713A26E48CE9</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Sensation%20Seekers%20(Martin%20Roth%20Nustyle%20Remix)-Mind%20X.mp3</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>16574</key>
+            <dict>
+                <key>Name</key>
+                <string>Peony (Original Mix)</string>
+                <key>Artist</key>
+                <string>Miraval</string>
+                <key>Album Artist</key>
+                <string>Miraval</string>
+                <key>Album</key>
+                <string>Blue Agave</string>
+                <key>Genre</key>
+                <string>Melodic House &amp; Techno</string>
+                <key>Kind</key>
+                <string>AIFF audio file</string>
+                <key>Size</key>
+                <integer>80520660</integer>
+                <key>Total Time</key>
+                <integer>456457</integer>
+                <key>Year</key>
+                <integer>2020</integer>
+                <key>BPM</key>
+                <integer>122</integer>
+                <key>Bit Rate</key>
+                <integer>1411</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Melodic House &amp; Techno</string>
+                <key>Normalization</key>
+                <integer>1259</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>03F8D9D92CB5F4FC</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Peony%20(Original%20Mix)-Miraval.aiff</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>7139</key>
+            <dict>
+                <key>Name</key>
+                <string>SuperSwing</string>
+                <key>Artist</key>
+                <string>Nikola Vujicic</string>
+                <key>Album Artist</key>
+                <string>Various Artists</string>
+                <key>Composer</key>
+                <string>Nikola Vujicic</string>
+                <key>Album</key>
+                <string>Electro Swing Elite Compilation 2015</string>
+                <key>Genre</key>
+                <string>House</string>
+                <key>Kind</key>
+                <string>Purchased AAC audio file</string>
+                <key>Size</key>
+                <integer>12030658</integer>
+                <key>Total Time</key>
+                <integer>347326</integer>
+                <key>Disc Number</key>
+                <integer>1</integer>
+                <key>Disc Count</key>
+                <integer>1</integer>
+                <key>Track Number</key>
+                <integer>3</integer>
+                <key>Track Count</key>
+                <integer>22</integer>
+                <key>Year</key>
+                <integer>2015</integer>
+                <key>Bit Rate</key>
+                <integer>256</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>House</string>
+                <key>Normalization</key>
+                <integer>2477</integer>
+                <key>Compilation</key>
+                <true/>
+                <key>Persistent ID</key>
+                <string>3134BEFAD57A5E7A</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Purchased</key>
+                <true/>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/SuperSwing-Nikola%20Vujicic.m4a</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>15627</key>
+            <dict>
+                <key>Name</key>
+                <string>Beyond the Sun (Powel Remix)</string>
+                <key>Artist</key>
+                <string>Nukreative</string>
+                <key>Album Artist</key>
+                <string>Nukreative</string>
+                <key>Album</key>
+                <string>Beyond the Sun</string>
+                <key>Genre</key>
+                <string>Melodic House &amp; Techno</string>
+                <key>Kind</key>
+                <string>AIFF audio file</string>
+                <key>Size</key>
+                <integer>73423830</integer>
+                <key>Total Time</key>
+                <integer>415724</integer>
+                <key>Year</key>
+                <integer>2020</integer>
+                <key>BPM</key>
+                <integer>121</integer>
+                <key>Bit Rate</key>
+                <integer>1411</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Melodic House &amp; Techno</string>
+                <key>Normalization</key>
+                <integer>1648</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>F31C003A27E76AFA</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Beyond%20the%20Sun%20(Powel%20Remix)-Nukreative.aiff</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>6899</key>
+            <dict>
+                <key>Name</key>
+                <string>The Glow</string>
+                <key>Artist</key>
+                <string>Ole Biege</string>
+                <key>Album</key>
+                <string>Anjunadeep 11: Sampler Part 2</string>
+                <key>Genre</key>
+                <string>Melodic House &amp; Techno</string>
+                <key>Kind</key>
+                <string>AIFF audio file</string>
+                <key>Size</key>
+                <integer>79061364</integer>
+                <key>Total Time</key>
+                <integer>447957</integer>
+                <key>Track Number</key>
+                <integer>2</integer>
+                <key>Year</key>
+                <integer>2020</integer>
+                <key>BPM</key>
+                <integer>120</integer>
+                <key>Bit Rate</key>
+                <integer>1411</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Melodic House &amp; Techno </string>
+                <key>Normalization</key>
+                <integer>2392</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Sort Name</key>
+                <string>Glow</string>
+                <key>Persistent ID</key>
+                <string>CCA00A751C462DBB</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/The%20Glow-Ole%20Biege.aiff</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>13760</key>
+            <dict>
+                <key>Name</key>
+                <string>Ashes In The Wind (Original Mix)</string>
+                <key>Artist</key>
+                <string>Sebastien Leger</string>
+                <key>Album Artist</key>
+                <string>Sebastien Leger</string>
+                <key>Album</key>
+                <string>Secrets EP</string>
+                <key>Genre</key>
+                <string>Melodic House &amp; Techno</string>
+                <key>Kind</key>
+                <string>AIFF audio file</string>
+                <key>Size</key>
+                <integer>106779326</integer>
+                <key>Total Time</key>
+                <integer>604426</integer>
+                <key>Year</key>
+                <integer>2020</integer>
+                <key>BPM</key>
+                <integer>121</integer>
+                <key>Bit Rate</key>
+                <integer>1411</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Melodic House &amp; Techno</string>
+                <key>Normalization</key>
+                <integer>1947</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>BD21AADADEC2C50A</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Ashes%20In%20The%20Wind%20(Original%20Mix)-Sebastien%20Leger.aiff</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>17033</key>
+            <dict>
+                <key>Name</key>
+                <string>1982 (Damon Jee Remix)</string>
+                <key>Artist</key>
+                <string>Sebastien Tex</string>
+                <key>Album</key>
+                <string>1982</string>
+                <key>Work</key>
+                <string>The Exquisite Pain Recordings</string>
+                <key>Genre</key>
+                <string>Deep House</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>18437136</integer>
+                <key>Total Time</key>
+                <integer>451265</integer>
+                <key>Track Number</key>
+                <integer>1</integer>
+                <key>Year</key>
+                <integer>2015</integer>
+                <key>BPM</key>
+                <integer>115</integer>
+                <key>Bit Rate</key>
+                <integer>320</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Deep House</string>
+                <key>Skip Count</key>
+                <integer>1</integer>
+                <key>Normalization</key>
+                <integer>1618</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>14525C25758B5608</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/1982%20(Damon%20Jee%20Remix)-Sebastien%20Tex.mp3</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>12201</key>
+            <dict>
+                <key>Name</key>
+                <string>Lost In Music (Dimitri Form Paris Mix)</string>
+                <key>Artist</key>
+                <string>Sister Sledge</string>
+                <key>Album</key>
+                <string>Nile Rodgers Presents The Chic</string>
+                <key>Grouping</key>
+                <string>-</string>
+                <key>Genre</key>
+                <string>Disco</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>18878279</integer>
+                <key>Total Time</key>
+                <integer>471275</integer>
+                <key>Track Number</key>
+                <integer>15</integer>
+                <key>Year</key>
+                <integer>2010</integer>
+                <key>BPM</key>
+                <integer>124</integer>
+                <key>Bit Rate</key>
+                <integer>320</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>2lnp</string>
+                <key>Normalization</key>
+                <integer>1318</integer>
+                <key>Persistent ID</key>
+                <string>E6A7E6CDAF7D3D38</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Lost%20In%20Music%20(Dimitri%20Form%20Paris%20Mix)-Sister%20Sledge.mp3</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>12258</key>
+            <dict>
+                <key>Name</key>
+                <string>Lost In Music (Dimitri from Paris Remix)</string>
+                <key>Artist</key>
+                <string>Sister Sledge</string>
+                <key>Album Artist</key>
+                <string>Sister Sledge</string>
+                <key>Composer</key>
+                <string>Edwards, Rodgers, Bernard Edwards &amp; Nile Rodgers</string>
+                <key>Album</key>
+                <string>We Are Family (1995 Remaster)</string>
+                <key>Genre</key>
+                <string>Funk / Soul</string>
+                <key>Kind</key>
+                <string>Purchased AAC audio file</string>
+                <key>Size</key>
+                <integer>17653952</integer>
+                <key>Total Time</key>
+                <integer>471106</integer>
+                <key>Disc Number</key>
+                <integer>1</integer>
+                <key>Disc Count</key>
+                <integer>1</integer>
+                <key>Track Number</key>
+                <integer>1</integer>
+                <key>Track Count</key>
+                <integer>3</integer>
+                <key>Year</key>
+                <integer>1979</integer>
+                <key>Bit Rate</key>
+                <integer>256</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>2lnp</string>
+                <key>Normalization</key>
+                <integer>1789</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>07688A08FA31E8E4</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Purchased</key>
+                <true/>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Lost%20In%20Music%20(Dimitri%20from%20Paris%20Remix)-Sister%20Sledge.m4a</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>16784</key>
+            <dict>
+                <key>Name</key>
+                <string>Alive Alone</string>
+                <key>Artist</key>
+                <string>The Chemical Brothers</string>
+                <key>Album Artist</key>
+                <string>The Chemical Brothers</string>
+                <key>Album</key>
+                <string>Exit Planet Dust</string>
+                <key>Genre</key>
+                <string>Electronic</string>
+                <key>Kind</key>
+                <string>Purchased AAC audio file</string>
+                <key>Size</key>
+                <integer>10957328</integer>
+                <key>Total Time</key>
+                <integer>316200</integer>
+                <key>Disc Number</key>
+                <integer>1</integer>
+                <key>Disc Count</key>
+                <integer>1</integer>
+                <key>Track Number</key>
+                <integer>11</integer>
+                <key>Track Count</key>
+                <integer>11</integer>
+                <key>Year</key>
+                <integer>1995</integer>
+                <key>Bit Rate</key>
+                <integer>256</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Electronic</string>
+                <key>Normalization</key>
+                <integer>2164</integer>
+                <key>Sort Album</key>
+                <string>Exit Planet Dust</string>
+                <key>Sort Album Artist</key>
+                <string>Chemical Brothers</string>
+                <key>Sort Artist</key>
+                <string>The Chemical Brothers</string>
+                <key>Sort Name</key>
+                <string>Alive Alone</string>
+                <key>Persistent ID</key>
+                <string>200625E22B8C3969</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Purchased</key>
+                <true/>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Alive%20Alone-The%20Chemical%20Brothers.m4a</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+            <key>11357</key>
+            <dict>
+                <key>Name</key>
+                <string>Hedia (Original Mix)</string>
+                <key>Artist</key>
+                <string>Yamil</string>
+                <key>Album</key>
+                <string>Summer Sol V</string>
+                <key>Genre</key>
+                <string>Organic House, Downtempo</string>
+                <key>Kind</key>
+                <string>MPEG audio file</string>
+                <key>Size</key>
+                <integer>15770119</integer>
+                <key>Total Time</key>
+                <integer>392045</integer>
+                <key>Track Number</key>
+                <integer>5</integer>
+                <key>Year</key>
+                <integer>2020</integer>
+                <key>BPM</key>
+                <integer>108</integer>
+                <key>Bit Rate</key>
+                <integer>320</integer>
+                <key>Sample Rate</key>
+                <integer>44100</integer>
+                <key>Comments</key>
+                <string>Organic House, Downtempo</string>
+                <key>Normalization</key>
+                <integer>1259</integer>
+                <key>Artwork Count</key>
+                <integer>1</integer>
+                <key>Persistent ID</key>
+                <string>47BF293581512883</string>
+                <key>Track Type</key>
+                <string>File</string>
+                <key>Location</key>
+                <string>file:///Users/beenerdy/Music/Lexicon/Uploaded/Hedia%20(Original%20Mix)-Yamil.mp3</string>
+                <key>File Folder Count</key>
+                <integer>-1</integer>
+                <key>Library Folder Count</key>
+                <integer>-1</integer>
+            </dict>
+        </dict>
+        <key>Playlists</key>
+        <array>
+            <dict>
+                <key>Name</key>
+                <string>Liked Prob</string>
+                <key>All Items</key>
+                <true/>
+                <key>Playlist Items</key>
+                <array>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>16029</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>9403</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>13891</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>8099</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>14598</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>17550</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>16574</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>7139</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>15627</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>6899</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>13760</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>17033</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>12201</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>12258</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>16784</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key>
+                        <integer>11357</integer>
+                    </dict>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>
