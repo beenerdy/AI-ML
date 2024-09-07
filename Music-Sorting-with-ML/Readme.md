@@ -1,83 +1,88 @@
 # Music Categorization and Playlist Creation using Machine Learning
 
-This project involves analyzing and categorizing music tracks based on user preferences using machine learning techniques. By extracting various audio features and employing deep learning models, it classifies tracks into "liked" or "disliked" categories, generating personalized playlists compatible with Apple Music, which manages local files.
+This project focuses on categorizing music tracks based on user preferences using machine learning. It employs a custom neural network to classify songs as "liked," "semi-liked," or "disliked," and generates playlists in an XML format compatible with Apple Music.
 
 ## Project Overview
 
-The goal of this project is to build a system that classifies music tracks based on audio features and generates playlists for users. The system processes each track by extracting features like MFCCs, chroma, spectral contrast, etc., and uses a combination of time-series and static feature classification to determine the user’s preference.
+The system classifies music tracks by extracting audio features and processing them using a combination of time-series and static feature models. The resulting playlists are generated in XML format for seamless import into Apple Music, which manages local music files.
 
-### Key Features
+### Key Components
 
-- **MFCCs, Chroma, Spectral Contrast**: Extracted using `librosa` and `essentia` to represent tonal, harmonic, and rhythmic features.
-- **Data Preprocessing**: Time-series and static features are separated, normalized, and standardized.
-- **Modeling**: A custom neural network with Conv1D layers, LSTM units, and attention mechanisms processes time-series features, while Dense layers handle static features.
-- **Playlist Generation**: Based on the classification results, playlists are generated in XML format, compatible with Apple Music, which manages local music files.
+- **Audio Feature Extraction**: Extracts features like MFCCs, chroma, spectral contrast, and more using libraries such as `librosa` and `essentia`.
+- **Modeling**: A neural network model combines convolutional layers, LSTMs, and attention mechanisms to process time-series features, while dense layers handle static features.
+- **Playlist Generation**: Based on classification results, playlists are created and stored in XML files that are compatible with Apple Music.
 
 ## Data Preprocessing
 
 1. **Feature Extraction**:
-   - Extracted multiple features such as MFCCs, chroma, spectral contrast, ZCR, spectral centroid, and RMS energy from audio files to capture key audio characteristics.
-   - Sampled 4 segments from each track to ensure comprehensive coverage of each song.
+   - Features such as MFCCs, chroma, spectral contrast, ZCR, spectral centroid, and RMS energy are extracted from audio files using `librosa` and `essentia`.
+   - Each track is divided into multiple segments to capture the full range of audio characteristics.
 
-2. **Data Handling**:
-   - **Caching**: Each track's features were cached after extraction to avoid redundant calculations and improve efficiency.
-   - **Balancing**: Used upsampling and downsampling techniques to handle imbalanced classes of "liked" and "disliked" songs, ensuring equal representation during model training.
+2. **Caching**:
+   - Extracted features are cached to avoid redundant calculations during reprocessing.
 
-3. **Static vs Time-Series Features**:
-   - Time-series features (MFCCs, chroma, spectral contrast, tonnetz) were stored in one structure, while static features (ZCR, spectral centroid, RMS, harmonic, percussive components, etc.) were stored in another.
-   - The static and time-series features were normalized and standardized to ensure they were on similar scales for better model performance:
-     - **Normalization**: Used `MinMaxScaler` to normalize certain static features (e.g., chroma, spectral contrast, tonnetz) to the range [0, 1].
-     - **Standardization**: Applied `StandardScaler` to time-series features like MFCCs and spectral centroid to normalize them to a standard distribution.
-     - **Log Transformation**: Performed log transformations on features like RMS and spectral rolloff to reduce skewness.
+3. **Data Balancing**:
+   - Upsampling and downsampling methods are applied to ensure an even distribution of "liked" and "disliked" tracks during model training.
 
-4. **Outlier Removal**:
-   - Removed outliers using z-score and IQR (Interquartile Range) methods to ensure that extreme values didn’t distort the model's learning process.
+4. **Normalization & Standardization**:
+   - Time-series and static features are normalized using `MinMaxScaler` and standardized using `StandardScaler` to ensure consistent scaling across features.
 
-5. **PCA for Visualization**:
-   - **Principal Component Analysis (PCA)** was applied solely for display purposes to visualize the feature space. It was not used for reducing dimensionality in the model training.
+5. **Outlier Removal**:
+   - Outliers are removed using z-score and IQR methods to avoid skewing the model's learning process.
 
-## Requirements
+## Model Training
 
-- Python 3.x
-- Libraries: `librosa`, `essentia`, `scikit-learn`, `tensorflow`, `pandas`
-  
-Install the required packages:
-```bash
-pip install -r requirements.txt
-```
-
-## How to Run the Project
-
-1. Clone the repository:
-    ```bash
-    git clone <repo-url>
-    cd <repo-folder>
-    ```
-2. Run the Jupyter Notebook:
-    ```bash
-    jupyter notebook "Music Sorting with ML.ipynb"
-    ```
-
-3. Prepare your music files and metadata in XML format. This will serve as input for the classification and playlist generation process.
-
-## Model Training and Evaluation
-
-The model consists of a combination of convolutional layers and LSTMs for time-series analysis and dense layers for static features. The combined outputs are classified into "liked" or "disliked," and playlists are generated accordingly. The model is trained and evaluated using accuracy and ROC AUC metrics.
+The model architecture consists of convolutional layers, LSTM units, and attention mechanisms to handle time-series data. Static features are processed through dense layers with batch normalization and dropout to prevent overfitting.
 
 ### Key Model Details:
-- **Time-series processing**: Conv1D and bidirectional LSTM layers extract temporal patterns from features like MFCCs and chroma.
-- **Attention Mechanism**: Multi-head attention was applied to improve the model’s focus on important sections of each track.
-- **Static Feature Processing**: Dense layers were used for static features, with batch normalization and dropout to prevent overfitting.
+- **Time-series processing**: Conv1D and LSTM layers are used to capture temporal patterns in features like MFCCs and chroma.
+- **Attention Mechanism**: Attention layers help the model focus on important sections of each track.
+- **Static Feature Processing**: Dense layers handle static features, while batch normalization and dropout are used for regularization.
+
+### Evaluation
+The model is evaluated using accuracy and ROC AUC metrics.
+
+## Running the Project
+
+### Jupyter Notebook for Model Training
+
+To train the model, run the Jupyter Notebook:
+```bash
+jupyter notebook "Music Sorting with ML.ipynb"
+```
+The notebook processes the dataset, trains the model, and saves it as `combined_model.h5`.
+
+### Song Classifier Script
+
+To classify new songs and generate playlists, run the `song_classifier.py` script:
+```bash
+python song_classifier.py --xml_file ./data/to_process.xml --max_tracks 1 --start_index 200
+```
+
+#### Key Parameters:
+- `--xml_file`: The path to the XML file containing the song data to be processed.
+- `--max_tracks`: (Optional) The maximum number of tracks to process. Default is all.
+- `--start_index`: (Optional) The index from which to start processing tracks. Default is 0.
+
+The classifier loads the pre-trained model from `combined_model.h5` and processes the songs, classifying them as "liked," "semi-liked," or "disliked."
+
+## Utilities
+
+The project includes a set of utility functions shared between the notebook and the classifier:
+- `extract_features`: Extracts audio features for classification.
+- `generate_hash`: Generates unique hashes for songs to ensure consistency across datasets.
+- `parse_and_extract_xml`: Parses the iTunes XML file and extracts relevant metadata.
+- `separate_and_process_features`: Separates and processes static and time-series features for model input.
 
 ## Playlist Generation
 
-After classifying the tracks, playlists are generated in XML format compatible with **Apple Music**:
+After classifying tracks, the script generates three playlists in XML format:
 - `liked_songs_playlist.xml`
 - `disliked_songs_playlist.xml`
 - `semi-liked_songs_playlist.xml`
 
-These playlists can be imported into Apple Music, which manages local files.
+These playlists can be imported into Apple Music, where they will be available for playback based on user preferences.
 
-## Results and Interpretation
+## Results
 
-The classification model achieves a good balance between accuracy and interpretability, making it suitable for personalized playlist creation.
+The model performs well in categorizing tracks according to user preferences, striking a balance between accuracy and playlist personalization. The classification results can be interpreted easily, making the system effective for creating personalized playlists.

@@ -1,6 +1,6 @@
 # AI & Machine Learning Projects Portfolio
 
-Welcome to my AI & Machine Learning Projects Portfolio! This repository contains a collection of projects that I have completed as part of various AI and Machine Learning courses and personal projects. Each project demonstrates different concepts, techniques, and skills I have learned and applied in the fields of data science, machine learning, and deep learning. Below is a summary of the projects included in this repository, along with the key skills and techniques showcased in each.
+Welcome to my AI & Machine Learning Projects Portfolio! This repository showcases a collection of AI and Machine Learning projects I’ve completed through various courses and personal exploration. Each project demonstrates concepts, techniques, and skills applied in data science, machine learning, and deep learning. Below is a summary of the projects included, highlighting key skills and methodologies.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ### 1. Music Categorization and Playlist Creation
 
-- **Objective**: Classify music tracks into "liked" or "disliked" categories using audio feature extraction and machine learning, generating playlists compatible with Apple Music.
+- **Objective**: Classify music tracks into "liked" or "disliked" categories using audio feature extraction and machine learning. The project generates playlists compatible with Apple Music.
 - **Techniques**:
   - Audio Feature Extraction (MFCCs, Chroma, Spectral Contrast)
   - Deep Learning (Conv1D, LSTM, Attention Mechanism)
@@ -29,11 +29,11 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ### 2. Facial Recognition Project
 
-- **Objective**: Develop a deep learning model to perform facial recognition tasks.
+- **Objective**: Develop a deep learning model for facial recognition tasks.
 - **Techniques**:
   - Convolutional Neural Networks (CNN)
   - Data Preprocessing and Normalization
-  - Model Evaluation using Accuracy Metrics
+  - Model Evaluation with Accuracy Metrics
 - **Key Skills**: TensorFlow, Deep Learning, Image Classification
 
 [Read more about this project](Facial-Recognition/Readme.md)
@@ -42,7 +42,7 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ### 3. Stock Market Analysis
 
-- **Objective**: Analyze and visualize stock market data, calculate returns, and implement technical indicators to gain insights into market trends.
+- **Objective**: Analyze stock market data, calculate returns, and implement technical indicators to gain insights into market trends.
 - **Techniques**:
   - Exploratory Data Analysis (EDA)
   - Moving Averages, Bollinger Bands, RSI
@@ -55,11 +55,11 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ### 4. California Housing Price Prediction
 
-- **Objective**: Predict the median house values in California using linear regression.
+- **Objective**: Predict median house values in California using linear regression.
 - **Techniques**:
   - Data Preprocessing (Imputation, Encoding, Scaling)
   - Linear Regression
-  - Model Evaluation using RMSE and R^2 Score
+  - Model Evaluation using RMSE and R² Score
 - **Key Skills**: Scikit-learn, Data Processing, Regression Analysis
 
 [Read more about this project](California-Housing-Prediction/Readme.md)
@@ -81,11 +81,11 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ### 6. Loan Default Prediction
 
-- **Objective**: Predict whether a loan will default using historical data and machine learning models.
+- **Objective**: Predict loan defaults using historical data and machine learning models.
 - **Techniques**:
   - Deep Learning Model (Neural Networks)
   - Data Imbalance Handling (Oversampling)
-  - Early Stopping and Dropout for Regularization
+  - Regularization (Early Stopping, Dropout)
 - **Key Skills**: TensorFlow/Keras, Deep Learning, Classification
 
 [Read more about this project](Loan-Default-Prediction/Readme.md)
@@ -94,9 +94,9 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ### 7. Image Classifier - Flower Species Recognition
 
-- **Objective**: Develop a deep learning model to classify images of flowers into different species.
+- **Objective**: Develop a deep learning model to classify flower species based on images.
 - **Techniques**:
-  - Transfer Learning using Pre-trained CNN (VGG16)
+  - Transfer Learning with Pre-trained CNN (VGG16)
   - Data Augmentation
   - Model Evaluation and Testing
 - **Key Skills**: PyTorch, Transfer Learning, Image Classification
@@ -107,19 +107,29 @@ Welcome to my AI & Machine Learning Projects Portfolio! This repository contains
 
 ## Skills and Techniques
 
-Throughout these projects, I have gained expertise in various areas of AI and Machine Learning, including:
+Across these projects, I’ve developed expertise in:
 
-- **Deep Learning**: CNNs, Transfer Learning, Model Training and Evaluation
-- **Data Preprocessing**: Handling missing data, data normalization, feature engineering, and balancing datasets
-- **Exploratory Data Analysis (EDA)**: Data visualization, trend analysis, and correlation studies
-- **Machine Learning**: Regression, Classification, XGBoost, and Neural Networks
-- **Project Development**: End-to-end project implementation, from data acquisition to model deployment
-- **Audio Signal Processing**: Feature extraction (MFCCs, chroma, spectral contrast) and playlist generation for music recommendation systems
+- **Deep Learning**: CNNs, Transfer Learning, Model Training, Evaluation
+- **Data Preprocessing**: Handling missing data, normalization, feature engineering, dataset balancing
+- **Exploratory Data Analysis (EDA)**: Data visualization, trend analysis, correlation studies
+- **Machine Learning**: Regression, Classification, XGBoost, Neural Networks
+- **End-to-End Development**: From data acquisition to model deployment
+- **Audio Signal Processing**: Feature extraction (MFCCs, Chroma, Spectral Contrast) and playlist generation for music recommendation systems
 
 ## How to Use This Repository
 
-To explore each project, navigate to its respective directory and follow the instructions provided in the individual README files. Each project includes all the necessary code, data, and resources to reproduce the results and gain insights into the methodologies applied.
+1. Install required packages using `requirements.txt`, ideally in a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+   ```
+2. Run Jupyter Notebook at the root level:
+   ```bash
+   jupyter notebook
+   ```
+3. Navigate through the provided notebooks to explore the projects.
 
 ## License
 
-This repository is licensed under the MIT License. See the LICENSE file for more details.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
