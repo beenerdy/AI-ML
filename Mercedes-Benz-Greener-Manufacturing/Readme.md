@@ -1,75 +1,43 @@
 # Mercedes-Benz Greener Manufacturing
 
-This repository contains the code and resources for optimizing the time cars spend on the test bench during the manufacturing process at Mercedes-Benz. The project focuses on reducing the testing time for various configurations of Mercedes-Benz cars, ultimately contributing to lower carbon emissions without compromising on safety and reliability.
+This project aims to reduce the time cars spend on the test bench during the manufacturing process at Mercedes-Benz. By developing a predictive model, the goal is to minimize testing time for various car configurations, ultimately lowering carbon emissions while maintaining safety and reliability standards.
 
 ## Project Overview
 
-The primary objective of this project is to develop a predictive model that reduces the time a car spends on the test bench by analyzing various car features. The project involves data preprocessing, feature selection, and the application of machine learning techniques to build a model that can accurately predict the testing time.
+In this project, I worked on optimizing the time cars spend on the test bench by training a machine learning model to predict the testing time based on each car's configuration. This involved data preprocessing, feature selection, and the use of XGBoost to build an efficient model.
+
+The ultimate goal is to contribute to Mercedes-Benz's sustainability efforts by reducing the time needed for testing, thus lowering carbon emissions while maintaining safety standards.
 
 ### Problem Statement
 
-Mercedes-Benz, a leader in the premium car industry, offers a wide range of customizable features and options for its vehicles. To ensure the safety and reliability of each unique car configuration, the company employs a robust testing system. However, optimizing the speed of this testing process is complex and time-consuming. By leveraging machine learning, the goal is to reduce testing time, which will help decrease carbon dioxide emissions while maintaining high standards of safety and quality.
+Mercedes-Benz offers a wide range of customizable vehicle options, requiring a robust testing process to ensure safety and reliability. However, this process is time-consuming. By applying machine learning, we can predict and reduce testing time, thereby optimizing the manufacturing process and lowering carbon emissions.
 
 ## Key Concepts and Techniques
 
-### 1. **Data Preprocessing**
-   - **Variance Thresholding**: 
-     - Features with zero variance across all samples were identified and removed, as they do not contribute to the predictive power of the model.
-   - **Null and Unique Value Checks**:
-     - The dataset was checked for missing values and the number of unique values in each feature to ensure data quality and consistency before model training.
-   - **Label Encoding**:
-     - Categorical variables were converted into numerical format using label encoding, which is essential for machine learning algorithms to process non-numeric data.
+### 1. Data Integrity and Preprocessing
+- **No missing or duplicated values**: The dataset was clean, with no missing or duplicated entries.
+- **ID checks**: The IDs were confirmed to be random, with no correlation to other features.
+- **Target Value Range**: The testing time ranged between 72 and 265 seconds, with most values between 75 and 150 seconds.
+- **Outlier Detection**: A scatter plot and percentile analysis identified an outlier with a test time of 265 seconds. Rows with test times greater than 155 seconds were removed.
+- **Categorical and Binary Features**:
+  - 8 categorical features were analyzed using box plots to assess variance.
+  - 368 binary features were analyzed for variance, with 13 zero-variance and 53 duplicated features removed.
+  
+### 2. Feature Selection and Encoding
+- Categorical variables were encoded using a custom `preprocess_categorical` function with LabelEncoder.
+- PCA (Principal Component Analysis) was applied to reduce dimensionality from 309 features to 10, excluding categorical features.
 
-### 2. **Dimensionality Reduction**
-   - **Feature Selection**:
-     - Dimensionality reduction techniques were applied to select the most relevant features, reducing the complexity of the model and improving its performance. This step is critical given the high dimensionality of the dataset with 377 features.
+### 3. Model Building
+- **XGBoost**: Chosen for its efficiency, XGBoost was trained on the dataset, with hyperparameter optimization performed using GridSearch.
+- **Performance**: The model achieved an R² score of 67%. However, further training attempts encountered resource constraints, and the full model was not retrained.
 
-### 3. **Model Building**
-   - **XGBoost**:
-     - XGBoost, an efficient and scalable implementation of gradient boosting, was used to build the predictive model. XGBoost is known for its high performance in classification and regression tasks, making it well-suited for this problem.
-   - **Model Training**:
-     - The model was trained on the preprocessed dataset, and various hyperparameters were tuned to optimize performance.
+### 4. Prediction and Evaluation
+- The model was evaluated using the R² score and tested on new car configurations to predict their testing time.
 
-### 4. **Prediction and Evaluation**
-   - The trained XGBoost model was used to predict the testing time on a separate test dataset. The model's performance was evaluated based on its ability to accurately predict the time required for each car configuration to pass the testing process.
+## Results
 
-## How to Run the Project
-
-### Prerequisites
-- Python 3.x
-- Pandas
-- Scikit-learn
-- XGBoost
-- Jupyter Notebook (optional, for interactive exploration)
-
-### Steps to Run
-1. Navigate to the project directory:
-   ```bash
-   cd mercedes-benz-greener-manufacturing
-   ```
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the Jupyter Notebook:
-   ```bash
-   jupyter notebook "Project.ipynb"
-   ```
-
-## Results and Interpretation
-
-The XGBoost model effectively reduced the testing time for various car configurations. By selecting the most relevant features and applying a powerful machine learning algorithm, the model contributes to the overall goal of reducing carbon emissions in the manufacturing process.
-
-## Future Work
-- **Hyperparameter Optimization**: Further tuning of the model's hyperparameters could lead to even better performance.
-- **Feature Engineering**: Additional feature engineering techniques could be applied to uncover more predictive power in the data.
-- **Model Comparison**: Experiment with other machine learning models, such as Random Forests or Neural Networks, to compare performance.
+The XGBoost model successfully reduced the predicted testing time for various car configurations. By selecting the most relevant features and applying machine learning techniques, this project contributes to greener manufacturing by lowering emissions.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- Mercedes-Benz for providing the problem statement and data.
-- The open-source community for the tools and libraries used in this project.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
